@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.output{
+  border: none;
+  outline: none;
+  width: 340px;
+  height: 60px;
+  font-size: 32px;
+  padding: 10px 20px ;
+  border-top-left-radius:10px ;
+  border-top-right-radius: 10px;
+  background-color: antiquewhite;
+  text-align: right;
+
+}
+
+button{
+   width: 85px;
+   height: 60px;
+   border: none;
+   outline: none;
+   border-right: 2px solid burlywood ;
+   border-top: 2px solid burlywood ;
+
+}
+.digit:hover{
+ background-color: aliceblue;
+}
+.operator:hover{
+  background-color: floralwhite;
+}
+.operator{
+  border-right: none;
+  background-color:cornsilk;
+
+}
+.fun-key{
+  background-color: blanchedalmond;
+}
+.fun-key:hover{
+  background-color: honeydew;
+}
